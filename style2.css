@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#game{
+    width: 40;
+    background: linear-gradient(to top, hwb(0 0% 100% / 0.1)50%, rgba(0,0,0,0.1)50%),url(img.jpeg);
+    background-position: right;
+    background-size: cover;
+    height: 109vh; 
+}
+
+#clue1{
+    width: 40;
+    background: linear-gradient(to top, hwb(0 0% 100% / 0.1)50%, rgba(0,0,0,0.1)50%),url(img4.jpeg);
+    background-position: right;
+    background-size: cover;
+    height: 109vh; 
+    
+}
+
+#clue2{
+    width: 40;
+    background: linear-gradient(to top, hwb(0 0% 100% / 0.1)50%, rgba(0,0,0,0.1)50%),url(img2.jpeg);
+    background-position: right;
+    background-size: cover;
+    height: 109vh; 
+}
+
+
+#clue3{
+    width: 40;
+    background: linear-gradient(to top, hwb(0 0% 100% / 0.1)50%, rgba(0,0,0,0.1)50%),url(img8.jpeg);
+    background-position: right;
+    background-size: cover;
+    height: 109vh; 
+}
+
+
+#clue4{
+    width: 40;
+    background: linear-gradient(to top, hwb(0 0% 100% / 0.1)50%, rgba(0,0,0,0.1)50%),url(img6.jpeg);
+    background-position: right;
+    background-size: cover;
+    height: 109vh; 
+}
+
+
+#clue5{
+    width: 40;
+    background: linear-gradient(to top, hwb(0 0% 100% / 0.1)50%, rgba(0,0,0,0.1)50%),url(img5.jpeg);
+    background-position: right;
+    background-size: cover;
+    height: 109vh; 
+}
+
+#success{
+    width: 40;
+    background: linear-gradient(to top, hwb(0 0% 100% / 0.1)50%, rgba(0,0,0,0.1)50%),url(img7.jpeg);
+    background-position: right;
+    background-size: cover;
+    height: 109vh; 
+
+}

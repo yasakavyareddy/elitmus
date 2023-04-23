@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Puzzle Game</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="game">
+        
+      <h1 style="text-align: center;">Welcome to the Puzzle Game!</h1>
+      <p style="text-align: center;">Click the button below to start:</p>
+      <style>
+        button
+        {
+            font-size: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            padding: 10px;
+        
+        }
+        #container{
+            text-align: center;
+        }
+        
+      </style>
+  
+      
+    <div id="container">
+        <button id="start">Start</button>
+    </div>
+    </div>
+    
+    <div id="clue1" class ="clue" style="display: none;">
+      <h2 style="text-align: center;">Clue 1:</h2>
+      <p style="text-align: center;">This is the first clue. You must solve it to find the next clue.</p>
+      <p style="text-align: center;">I begin and end with the letter “e,” and usually only contain one letter.</p>
+      <input type="text" id="clue1-answer" placeholder="Enter your answer">
+      <style>
+        button
+        {
+            font-size: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            padding: 10px;
+        
+        }
+        #container{
+            text-align: center;
+        }
+        #image {
+			  display: none;
+		    }
+        
+      </style>
+      
+
+	   
+    <div id="container">
+        <button id="clue1-submit">Submit</button>
+    </div> 
+    <div>
+    <h1>hint</h1>
+		<h3>Click on the button to see image</h3>
+
+		<!-- Add id to image -->
+		<img id="image" src="envelope.jpg" />
+    </div>
+    <button type="button"
+		onclick="show()" id="btnID">
+		Show Image
+	  </button>
+
+	  <script>
+		function show() {
+
+			/* Access image by id and change
+			the display property to block*/
+			document.getElementById('image')
+					.style.display = "block";
+
+			document.getElementById('btnID')
+					.style.display = "none";
+		}
+	  </script>
+    
+    </div>
+    
+    <div id="clue2" class="clue" style="display: none;">
+      <h2 style="text-align: center;">Clue 2:</h2>
+      <p style="text-align: center;">Congratulations, you solved the first clue! Here's the second clue:</p>
+      <p>I’m tall when I’m young and short when I’m old</p>
+      <input type="text" id="clue2-answer" placeholder="Enter your answer">
+      <style>
+        button
+        {
+            font-size: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            padding: 10px;
+        
+        }
+        #container{
+            text-align: center;
+        }
+        #image {
+			  display: none;
+		    }
+
+        
+      </style>
+      
+    <div id="container">
+        <button id="clue2-submit">Submit</button>
+    </div> 
+    <div>
+      <h1>hint</h1>
+      <h3>Click on the button to see image</h3>
+  
+      <!-- Add id to image -->
+      <img id="image1" src="candle.jpg" />
+      </div>
+      <button type="button"
+      onclick="show()" id="btnID">
+      Show Image
+      </button>
+  
+      <script>
+      function show() {
+  
+        /* Access image by id and change
+        the display property to block*/
+        document.getElementById('image1')
+            .style.display = "block";
+  
+        document.getElementById('btnID')
+            .style.display = "none";
+      }
+      </script>
+    </div>
+    
+    <div id="clue3" class="clue" style="display: none;">
+      <h2 style="text-align: center;">Clue 3:</h2>
+      <p style="text-align: center;">Good job, you're almost there! Here's the third clue:</p>
+      <p style="text-align: center;">It has four legs but cannot walk</p>
+      <input type="text" id="clue3-answer" placeholder="Enter your answer">
+      <style>
+        button
+        {
+            font-size: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            padding: 10px;
+        
+        }
+        #container{
+            text-align: center;
+        }
+        #image {
+			  display: none;
+		    }
+        
+      </style>
+      
+    <div id="container">
+        <button id="clue3-submit">Submit</button>
+    </div> 
+
+    <div>
+      <h1>hint</h1>
+      <h3>Click on the button to see image</h3>
+  
+      <!-- Add id to image -->
+      <img id="image2" src="table.jpg" />
+      </div>
+      <button type="button"
+      onclick="show()" id="btnID">
+      Show Image
+      </button>
+  
+      <script>
+      function show() {
+  
+        /* Access image by id and change
+        the display property to block*/
+        document.getElementById('image2')
+            .style.display = "block";
+  
+        document.getElementById('btnID')
+            .style.display = "none";
+      }
+      </script>
+    </div>
+    
+    <div id="clue4" class="clue" style="display: none;">
+        <h2 style="text-align: center;">Clue 4:</h2>
+        <p style="text-align: center;">This is the fourth clue.Come on you can do it.</p>
+        <p style="text-align: center;">I dry as I get wetter.</p>
+        <input type="text" id="clue4-answer" placeholder="Enter your answer">
+        <style>
+            button
+            {
+                font-size: 20px;
+                margin: 20px;
+                border-radius: 10px;
+                padding: 10px;
+            
+            }
+            #container{
+                text-align: center;
+            }
+            #image {
+			      display: none;
+		        }
+            
+          </style>
+          
+        <div id="container">
+            <button id="clue4-submit">Submit</button>
+        </div> 
+        <div>
+          <h1>hint</h1>
+          <h3>Click on the button to see image</h3>
+      
+          <!-- Add id to image -->
+          <img id="image3" src="towel.jpg" />
+          </div>
+          <button type="button"
+          onclick="show()" id="btnID">
+          Show Image
+          </button>
+      
+          <script>
+          function show() {
+      
+            /* Access image by id and change
+            the display property to block*/
+            document.getElementById('image3')
+                .style.display = "block";
+      
+            document.getElementById('btnID')
+                .style.display = "none";
+          }
+          </script>
+    </div>
+
+    <div id="clue5" class="clue" style="display: none;">
+        <h2 style="text-align: center;">Clue 5:</h2>
+        <p style="text-align: center;">Here comes the last clue.Hope you will do it..</p>
+        <p style="text-align: center;">I have hands but cannot clap</p>
+        <input type="text" id="clue5-answer" placeholder="Enter your answer">
+        <style>
+            button
+            {
+                font-size: 20px;
+                margin: 20px;
+                border-radius: 10px;
+                padding: 10px;
+            
+            }
+            #container{
+                text-align: center;
+            }
+            #image {
+			      display: none;
+		        }
+            
+          </style>
+          
+        <div id="container">
+            <button id="clue5-submit">Submit</button>
+        </div> 
+        <div>
+          <h1>hint</h1>
+          <h3>Click on the button to see image</h3>
+      
+          <!-- Add id to image -->
+          <img id="image" src="clock.jpg" />
+          </div>
+          <button type="button"
+          onclick="show()" id="btnID">
+          Show Image
+          </button>
+      
+          <script>
+          function show() {
+      
+            /* Access image by id and change
+            the display property to block*/
+            document.getElementById('image')
+                .style.display = "block";
+      
+            document.getElementById('btnID')
+                .style.display = "none";
+          }
+          </script>
+    </div>
+
+    <div id="success" style="display: none;">
+      <h1 style="text-align: center;">Congratulations, you won!</h1>
+    </div>
+    
+    <div id="fail" style="display: none;">
+      <h1>Oops, you lost!</h1>
+      <p>Better luck next time!</p>
+    </div>
+    
+    <script>
+      $(document).ready(function() {
+        $("#start").click(function() {
+          $("#game").hide();
+          $("#clue1").show();
+        });
+        
+        $("#clue1-submit").click(function() {
+          var answer = $("#clue1-answer").val();
+          if (answer == "envelope") {
+            $("#clue1").hide();
+            $("#clue2").show();
+          } else {
+            $("#fail").show();
+          }
+        });
+        
+        $("#clue2-submit").click(function() {
+          var answer = $("#clue2-answer").val();
+          if (answer == "candle") {
+            $("#clue2").hide();
+            $("#clue3").show();
+          } else {
+            $("#fail").show();
+          }
+        });
+        
+        $("#clue3-submit").click(function() {
+          var answer = $("#clue3-answer").val();
+          if (answer == "table") {
+            $("#clue3").hide();
+            $("#clue4").show();
+          } else {
+            $("#fail").show();
+          }
+        });
+
+        $("#clue4-submit").click(function() {
+          var answer = $("#clue4-answer").val();
+          if (answer == "towel") {
+            $("#clue4").hide();
+            $("#clue5").show();
+          } else {
+            $("#fail").show();
+          }
+        });
+
+        $("#clue5-submit").click(function() {
+          var answer = $("#clue5-answer").val();
+          if (answer == "clock") {
+            $("#clue5").hide();
+            $("#success").show();
+          } else {
+            $("#fail").show();
+          }
+        });
+      });
+    </script>
+  </body>
